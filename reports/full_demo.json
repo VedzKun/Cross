@@ -1,0 +1,871 @@
+{
+  "diff": {
+    "doc_a_id": "rbi_v1",
+    "doc_b_id": "rbi_v2",
+    "aligned_pairs": [
+      {
+        "pair_id": "p0000",
+        "alignment_type": "1-1",
+        "sentences_a": [
+          {
+            "id": "Circular_2024_v1_s0000",
+            "text": "Section 4(1).",
+            "doc_id": "Circular_2024_v1",
+            "index": 0,
+            "clause_id": "4(1)",
+            "section_title": "Governance & Capital:",
+            "page_num": null,
+            "char_start": 0,
+            "char_end": 13,
+            "language": "en"
+          }
+        ],
+        "sentences_b": [
+          {
+            "id": "Circular_2025_v2_s0000",
+            "text": "Section 4(1).",
+            "doc_id": "Circular_2025_v2",
+            "index": 0,
+            "clause_id": "4(1)",
+            "section_title": "Governance & Capital:",
+            "page_num": null,
+            "char_start": 0,
+            "char_end": 13,
+            "language": "en"
+          }
+        ],
+        "similarity_score": 0.9999999403953552,
+        "severity": "unchanged",
+        "confidence": 0.9999999403953552,
+        "rule_flags": [],
+        "explanation": null
+      },
+      {
+        "pair_id": "p0001",
+        "alignment_type": "1-1",
+        "sentences_a": [
+          {
+            "id": "Circular_2024_v1_s0001",
+            "text": "Governance & Capital:",
+            "doc_id": "Circular_2024_v1",
+            "index": 1,
+            "clause_id": "4(1)",
+            "section_title": "Governance & Capital:",
+            "page_num": null,
+            "char_start": 13,
+            "char_end": 34,
+            "language": "en"
+          }
+        ],
+        "sentences_b": [
+          {
+            "id": "Circular_2025_v2_s0001",
+            "text": "Governance & Capital:",
+            "doc_id": "Circular_2025_v2",
+            "index": 1,
+            "clause_id": "4(1)",
+            "section_title": "Governance & Capital:",
+            "page_num": null,
+            "char_start": 13,
+            "char_end": 34,
+            "language": "en"
+          }
+        ],
+        "similarity_score": 0.9999999403953552,
+        "severity": "unchanged",
+        "confidence": 0.9999999403953552,
+        "rule_flags": [],
+        "explanation": null
+      },
+      {
+        "pair_id": "p0002",
+        "alignment_type": "1-1",
+        "sentences_a": [
+          {
+            "id": "Circular_2024_v1_s0002",
+            "text": "(a) Every regulated entity shall maintain a minimum net owned fund of Rs. 500 crore at all times.",
+            "doc_id": "Circular_2024_v1",
+            "index": 2,
+            "clause_id": "4(a)",
+            "section_title": "Every regulated entity shall maintain a minimum net owned fund of Rs. 500 crore at all times.",
+            "page_num": null,
+            "char_start": 36,
+            "char_end": 133,
+            "language": "en"
+          }
+        ],
+        "sentences_b": [
+          {
+            "id": "Circular_2025_v2_s0002",
+            "text": "(a) Every regulated entity shall maintain a minimum net owned fund of Rs. 750 crore at all times.",
+            "doc_id": "Circular_2025_v2",
+            "index": 2,
+            "clause_id": "4(a)",
+            "section_title": "Every regulated entity shall maintain a minimum net owned fund of Rs. 750 crore at all times.",
+            "page_num": null,
+            "char_start": 36,
+            "char_end": 133,
+            "language": "en"
+          }
+        ],
+        "similarity_score": 0.015888653695583344,
+        "severity": "critical",
+        "confidence": 0.75,
+        "rule_flags": [
+          "amount_changed"
+        ],
+        "explanation": null
+      },
+      {
+        "pair_id": "p0003",
+        "alignment_type": "1-1",
+        "sentences_a": [
+          {
+            "id": "Circular_2024_v1_s0003",
+            "text": "(b) Entities must submit a quarterly compliance report to the Reserve Bank within 30 days of quarter end.",
+            "doc_id": "Circular_2024_v1",
+            "index": 3,
+            "clause_id": "4(b)",
+            "section_title": "Entities must submit a quarterly compliance report to the Reserve Bank within 30 days of quarter end.",
+            "page_num": null,
+            "char_start": 134,
+            "char_end": 239,
+            "language": "en"
+          }
+        ],
+        "sentences_b": [
+          {
+            "id": "Circular_2025_v2_s0003",
+            "text": "(b) Entities will submit a quarterly compliance report to the Reserve Bank within 30 days of quarter end.",
+            "doc_id": "Circular_2025_v2",
+            "index": 3,
+            "clause_id": "4(b)",
+            "section_title": "Entities will submit a quarterly compliance report to the Reserve Bank within 30 days of quarter end.",
+            "page_num": null,
+            "char_start": 134,
+            "char_end": 239,
+            "language": "en"
+          }
+        ],
+        "similarity_score": 0.05993925407528877,
+        "severity": "critical",
+        "confidence": 0.75,
+        "rule_flags": [],
+        "explanation": null
+      },
+      {
+        "pair_id": "p0004",
+        "alignment_type": "insert",
+        "sentences_a": [],
+        "sentences_b": [
+          {
+            "id": "Circular_2025_v2_s0004",
+            "text": "(c) Non-deposit NBFCs shall appoint an independent risk officer w.e.f. 1st October 2026.",
+            "doc_id": "Circular_2025_v2",
+            "index": 4,
+            "clause_id": "4(c)",
+            "section_title": "Non-deposit NBFCs shall appoint an independent risk officer w.e.f. 1st October 2026.",
+            "page_num": null,
+            "char_start": 240,
+            "char_end": 328,
+            "language": "en"
+          }
+        ],
+        "similarity_score": 0.0,
+        "severity": "critical",
+        "confidence": 1.0,
+        "rule_flags": [],
+        "explanation": null
+      },
+      {
+        "pair_id": "p0005",
+        "alignment_type": "1-1",
+        "sentences_a": [
+          {
+            "id": "Circular_2024_v1_s0004",
+            "text": "Section 4(2).",
+            "doc_id": "Circular_2024_v1",
+            "index": 4,
+            "clause_id": "4(2)",
+            "section_title": "Permitted Operations:",
+            "page_num": null,
+            "char_start": 241,
+            "char_end": 254,
+            "language": "en"
+          }
+        ],
+        "sentences_b": [
+          {
+            "id": "Circular_2025_v2_s0005",
+            "text": "Section 4(2).",
+            "doc_id": "Circular_2025_v2",
+            "index": 5,
+            "clause_id": "4(2)",
+            "section_title": "Permitted Operations:",
+            "page_num": null,
+            "char_start": 330,
+            "char_end": 343,
+            "language": "en"
+          }
+        ],
+        "similarity_score": 1.0,
+        "severity": "unchanged",
+        "confidence": 1.0,
+        "rule_flags": [],
+        "explanation": null
+      },
+      {
+        "pair_id": "p0006",
+        "alignment_type": "1-1",
+        "sentences_a": [
+          {
+            "id": "Circular_2024_v1_s0005",
+            "text": "Permitted Operations:",
+            "doc_id": "Circular_2024_v1",
+            "index": 5,
+            "clause_id": "4(2)",
+            "section_title": "Permitted Operations:",
+            "page_num": null,
+            "char_start": 254,
+            "char_end": 275,
+            "language": "en"
+          }
+        ],
+        "sentences_b": [
+          {
+            "id": "Circular_2025_v2_s0006",
+            "text": "Permitted Operations:",
+            "doc_id": "Circular_2025_v2",
+            "index": 6,
+            "clause_id": "4(2)",
+            "section_title": "Permitted Operations:",
+            "page_num": null,
+            "char_start": 343,
+            "char_end": 364,
+            "language": "en"
+          }
+        ],
+        "similarity_score": 1.0,
+        "severity": "unchanged",
+        "confidence": 1.0,
+        "rule_flags": [],
+        "explanation": null
+      },
+      {
+        "pair_id": "p0007",
+        "alignment_type": "1-1",
+        "sentences_a": [
+          {
+            "id": "Circular_2024_v1_s0006",
+            "text": "(a) Banks may extend credit facilities to micro and small enterprises up to Rs. 10 crore without prior approval.",
+            "doc_id": "Circular_2024_v1",
+            "index": 6,
+            "clause_id": "4(a)",
+            "section_title": "Banks may extend credit facilities to micro and small enterprises up to Rs. 10 crore without prior approval.",
+            "page_num": null,
+            "char_start": 277,
+            "char_end": 389,
+            "language": "en"
+          }
+        ],
+        "sentences_b": [
+          {
+            "id": "Circular_2025_v2_s0007",
+            "text": "(a) Banks shall not extend credit facilities to micro and small enterprises up to Rs. 10 crore without prior approval.",
+            "doc_id": "Circular_2025_v2",
+            "index": 7,
+            "clause_id": "4(a)",
+            "section_title": "Banks shall not extend credit facilities to micro and small enterprises up to Rs. 10 crore without prior approval.",
+            "page_num": null,
+            "char_start": 366,
+            "char_end": 484,
+            "language": "en"
+          }
+        ],
+        "similarity_score": -0.05836564302444458,
+        "severity": "critical",
+        "confidence": 0.75,
+        "rule_flags": [
+          "modal_strengthened",
+          "obligation_changed"
+        ],
+        "explanation": null
+      },
+      {
+        "pair_id": "p0008",
+        "alignment_type": "1-1",
+        "sentences_a": [
+          {
+            "id": "Circular_2024_v1_s0007",
+            "text": "धारा 5(1).",
+            "doc_id": "Circular_2024_v1",
+            "index": 7,
+            "clause_id": "5(1)",
+            "section_title": "शिकायत निवारण तंत्र:",
+            "page_num": null,
+            "char_start": 391,
+            "char_end": 401,
+            "language": "hi"
+          }
+        ],
+        "sentences_b": [
+          {
+            "id": "Circular_2025_v2_s0008",
+            "text": "धारा 5(1).",
+            "doc_id": "Circular_2025_v2",
+            "index": 8,
+            "clause_id": "5(1)",
+            "section_title": "शिकायत निवारण तंत्र:",
+            "page_num": null,
+            "char_start": 486,
+            "char_end": 496,
+            "language": "hi"
+          }
+        ],
+        "similarity_score": 1.0,
+        "severity": "unchanged",
+        "confidence": 1.0,
+        "rule_flags": [],
+        "explanation": null
+      },
+      {
+        "pair_id": "p0009",
+        "alignment_type": "1-1",
+        "sentences_a": [
+          {
+            "id": "Circular_2024_v1_s0008",
+            "text": "शिकायत निवारण तंत्र:",
+            "doc_id": "Circular_2024_v1",
+            "index": 8,
+            "clause_id": "5(1)",
+            "section_title": "शिकायत निवारण तंत्र:",
+            "page_num": null,
+            "char_start": 401,
+            "char_end": 421,
+            "language": "hi"
+          }
+        ],
+        "sentences_b": [
+          {
+            "id": "Circular_2025_v2_s0009",
+            "text": "शिकायत निवारण तंत्र:",
+            "doc_id": "Circular_2025_v2",
+            "index": 9,
+            "clause_id": "5(1)",
+            "section_title": "शिकायत निवारण तंत्र:",
+            "page_num": null,
+            "char_start": 496,
+            "char_end": 516,
+            "language": "hi"
+          }
+        ],
+        "similarity_score": 1.0,
+        "severity": "unchanged",
+        "confidence": 1.0,
+        "rule_flags": [],
+        "explanation": null
+      },
+      {
+        "pair_id": "p0010",
+        "alignment_type": "1-1",
+        "sentences_a": [
+          {
+            "id": "Circular_2024_v1_s0009",
+            "text": "(क) प्रत्येक बैंक को एक नोडल अधिकारी नियुक्त करना अनिवार्य होगा।",
+            "doc_id": "Circular_2024_v1",
+            "index": 9,
+            "clause_id": "5(क)",
+            "section_title": "प्रत्येक बैंक को एक नोडल अधिकारी नियुक्त करना अनिवार्य होगा।",
+            "page_num": null,
+            "char_start": 423,
+            "char_end": 487,
+            "language": "hi"
+          }
+        ],
+        "sentences_b": [
+          {
+            "id": "Circular_2025_v2_s0010",
+            "text": "(क) प्रत्येक बैंक को एक नोडल अधिकारी नियुक्त करना चाहिए।",
+            "doc_id": "Circular_2025_v2",
+            "index": 10,
+            "clause_id": "5(क)",
+            "section_title": "प्रत्येक बैंक को एक नोडल अधिकारी नियुक्त करना चाहिए।",
+            "page_num": null,
+            "char_start": 518,
+            "char_end": 574,
+            "language": "hi"
+          }
+        ],
+        "similarity_score": -0.0018279608339071274,
+        "severity": "critical",
+        "confidence": 0.75,
+        "rule_flags": [],
+        "explanation": null
+      },
+      {
+        "pair_id": "p0011",
+        "alignment_type": "1-1",
+        "sentences_a": [
+          {
+            "id": "Circular_2024_v1_s0010",
+            "text": "பிரிவு 6(1).",
+            "doc_id": "Circular_2024_v1",
+            "index": 10,
+            "clause_id": "6(1)",
+            "section_title": "தகவல் பாதுகாப்பு:",
+            "page_num": null,
+            "char_start": 489,
+            "char_end": 501,
+            "language": "ta"
+          }
+        ],
+        "sentences_b": [
+          {
+            "id": "Circular_2025_v2_s0011",
+            "text": "பிரிவு 6(1).",
+            "doc_id": "Circular_2025_v2",
+            "index": 11,
+            "clause_id": "6(1)",
+            "section_title": "தகவல் பாதுகாப்பு:",
+            "page_num": null,
+            "char_start": 576,
+            "char_end": 588,
+            "language": "ta"
+          }
+        ],
+        "similarity_score": 1.000000238418579,
+        "severity": "unchanged",
+        "confidence": 1.000000238418579,
+        "rule_flags": [],
+        "explanation": null
+      },
+      {
+        "pair_id": "p0012",
+        "alignment_type": "1-1",
+        "sentences_a": [
+          {
+            "id": "Circular_2024_v1_s0011",
+            "text": "தகவல் பாதுகாப்பு:",
+            "doc_id": "Circular_2024_v1",
+            "index": 11,
+            "clause_id": "6(1)",
+            "section_title": "தகவல் பாதுகாப்பு:",
+            "page_num": null,
+            "char_start": 501,
+            "char_end": 518,
+            "language": "ta"
+          }
+        ],
+        "sentences_b": [
+          {
+            "id": "Circular_2025_v2_s0012",
+            "text": "தகவல் பாதுகாப்பு:",
+            "doc_id": "Circular_2025_v2",
+            "index": 12,
+            "clause_id": "6(1)",
+            "section_title": "தகவல் பாதுகாப்பு:",
+            "page_num": null,
+            "char_start": 588,
+            "char_end": 605,
+            "language": "ta"
+          }
+        ],
+        "similarity_score": 1.0,
+        "severity": "unchanged",
+        "confidence": 1.0,
+        "rule_flags": [],
+        "explanation": null
+      },
+      {
+        "pair_id": "p0013",
+        "alignment_type": "1-1",
+        "sentences_a": [
+          {
+            "id": "Circular_2024_v1_s0012",
+            "text": "(அ) அனைத்து வாடிக்கையாளர் தரவுகளும் இந்தியாவில் மட்டுமே சேமிக்கப்பட வேண்டும்.",
+            "doc_id": "Circular_2024_v1",
+            "index": 12,
+            "clause_id": "6(அ)",
+            "section_title": "அனைத்து வாடிக்கையாளர் தரவுகளும் இந்தியாவில் மட்டுமே சேமிக்கப்பட வேண்டும்.",
+            "page_num": null,
+            "char_start": 520,
+            "char_end": 597,
+            "language": "ta"
+          }
+        ],
+        "sentences_b": [
+          {
+            "id": "Circular_2025_v2_s0013",
+            "text": "(அ) அனைத்து வாடிக்கையாளர் தரவுகளும் இந்தியாவில் மட்டுமே சேமிக்கப்பட வேண்டும்.",
+            "doc_id": "Circular_2025_v2",
+            "index": 13,
+            "clause_id": "6(அ)",
+            "section_title": "அனைத்து வாடிக்கையாளர் தரவுகளும் இந்தியாவில் மட்டுமே சேமிக்கப்பட வேண்டும்.",
+            "page_num": null,
+            "char_start": 607,
+            "char_end": 684,
+            "language": "ta"
+          }
+        ],
+        "similarity_score": 0.9999999403953552,
+        "severity": "unchanged",
+        "confidence": 0.9999999403953552,
+        "rule_flags": [],
+        "explanation": null
+      }
+    ],
+    "stats": {
+      "total_pairs": 14,
+      "alignment_type_counts": {
+        "1-1": 13,
+        "1-many": 0,
+        "many-1": 0,
+        "insert": 1,
+        "delete": 0
+      },
+      "severity_counts": {
+        "unchanged": 9,
+        "cosmetic": 0,
+        "substantive": 0,
+        "critical": 5
+      }
+    },
+    "created_at": "2026-11-03T06:51:52.253056+00:00"
+  },
+  "timelines": [
+    {
+      "clause_id": "4(1)",
+      "history": [
+        {
+          "from_version": "v1",
+          "to_version": "v2",
+          "alignment_type": "1-1",
+          "severity": "unchanged",
+          "text_before": "Section 4(1).",
+          "text_after": "Section 4(1).",
+          "similarity": 0.9999999403953552,
+          "confidence": 0.9999999403953552
+        },
+        {
+          "from_version": "v1",
+          "to_version": "v2",
+          "alignment_type": "1-1",
+          "severity": "unchanged",
+          "text_before": "Governance & Capital:",
+          "text_after": "Governance & Capital:",
+          "similarity": 0.9999999403953552,
+          "confidence": 0.9999999403953552
+        },
+        {
+          "from_version": "v2",
+          "to_version": "v3",
+          "alignment_type": "1-1",
+          "severity": "unchanged",
+          "text_before": "Section 4(1).",
+          "text_after": "Section 4(1).",
+          "similarity": 0.9999999403953552,
+          "confidence": 0.9999999403953552
+        },
+        {
+          "from_version": "v2",
+          "to_version": "v3",
+          "alignment_type": "1-1",
+          "severity": "unchanged",
+          "text_before": "Governance & Capital:",
+          "text_after": "Governance & Capital:",
+          "similarity": 0.9999999403953552,
+          "confidence": 0.9999999403953552
+        }
+      ],
+      "final_status": "active"
+    },
+    {
+      "clause_id": "4(a)",
+      "history": [
+        {
+          "from_version": "v1",
+          "to_version": "v2",
+          "alignment_type": "1-1",
+          "severity": "critical",
+          "text_before": "(a) Every regulated entity shall maintain a minimum net owned fund of Rs. 500 crore at all times.",
+          "text_after": "(a) Every regulated entity shall maintain a minimum net owned fund of Rs. 750 crore at all times.",
+          "similarity": 0.015888653695583344,
+          "confidence": 0.75
+        },
+        {
+          "from_version": "v1",
+          "to_version": "v2",
+          "alignment_type": "1-1",
+          "severity": "critical",
+          "text_before": "(a) Banks may extend credit facilities to micro and small enterprises up to Rs. 10 crore without prior approval.",
+          "text_after": "(a) Banks shall not extend credit facilities to micro and small enterprises up to Rs. 10 crore without prior approval.",
+          "similarity": -0.05836564302444458,
+          "confidence": 0.75
+        },
+        {
+          "from_version": "v2",
+          "to_version": "v3",
+          "alignment_type": "1-1",
+          "severity": "critical",
+          "text_before": "(a) Every regulated entity shall maintain a minimum net owned fund of Rs. 750 crore at all times.",
+          "text_after": "(a) Every regulated entity shall maintain a minimum net owned fund of Rs. 1,000 crore at all times.",
+          "similarity": -0.02745542675256729,
+          "confidence": 0.75
+        },
+        {
+          "from_version": "v2",
+          "to_version": "v3",
+          "alignment_type": "1-1",
+          "severity": "critical",
+          "text_before": "(a) Banks shall not extend credit facilities to micro and small enterprises up to Rs. 10 crore without prior approval.",
+          "text_after": "(a) Banks shall not extend credit facilities exceeding Rs. 25 crore without central board sanction.",
+          "similarity": -0.053314369171857834,
+          "confidence": 0.75
+        }
+      ],
+      "final_status": "active"
+    },
+    {
+      "clause_id": "4(b)",
+      "history": [
+        {
+          "from_version": "v1",
+          "to_version": "v2",
+          "alignment_type": "1-1",
+          "severity": "critical",
+          "text_before": "(b) Entities must submit a quarterly compliance report to the Reserve Bank within 30 days of quarter end.",
+          "text_after": "(b) Entities will submit a quarterly compliance report to the Reserve Bank within 30 days of quarter end.",
+          "similarity": 0.05993925407528877,
+          "confidence": 0.75
+        },
+        {
+          "from_version": "v2",
+          "to_version": "v3",
+          "alignment_type": "1-1",
+          "severity": "critical",
+          "text_before": "(b) Entities will submit a quarterly compliance report to the Reserve Bank within 30 days of quarter end.",
+          "text_after": "(b) Entities will submit a quarterly compliance report to the Reserve Bank within 45 days of quarter end.",
+          "similarity": 0.02457015961408615,
+          "confidence": 0.75
+        }
+      ],
+      "final_status": "active"
+    },
+    {
+      "clause_id": "4(2)",
+      "history": [
+        {
+          "from_version": "v1",
+          "to_version": "v2",
+          "alignment_type": "1-1",
+          "severity": "unchanged",
+          "text_before": "Section 4(2).",
+          "text_after": "Section 4(2).",
+          "similarity": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "from_version": "v1",
+          "to_version": "v2",
+          "alignment_type": "1-1",
+          "severity": "unchanged",
+          "text_before": "Permitted Operations:",
+          "text_after": "Permitted Operations:",
+          "similarity": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "from_version": "v2",
+          "to_version": "v3",
+          "alignment_type": "1-1",
+          "severity": "unchanged",
+          "text_before": "Section 4(2).",
+          "text_after": "Section 4(2).",
+          "similarity": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "from_version": "v2",
+          "to_version": "v3",
+          "alignment_type": "1-1",
+          "severity": "unchanged",
+          "text_before": "Permitted Operations:",
+          "text_after": "Permitted Operations:",
+          "similarity": 1.0,
+          "confidence": 1.0
+        }
+      ],
+      "final_status": "active"
+    },
+    {
+      "clause_id": "5(1)",
+      "history": [
+        {
+          "from_version": "v1",
+          "to_version": "v2",
+          "alignment_type": "1-1",
+          "severity": "unchanged",
+          "text_before": "धारा 5(1).",
+          "text_after": "धारा 5(1).",
+          "similarity": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "from_version": "v1",
+          "to_version": "v2",
+          "alignment_type": "1-1",
+          "severity": "unchanged",
+          "text_before": "शिकायत निवारण तंत्र:",
+          "text_after": "शिकायत निवारण तंत्र:",
+          "similarity": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "from_version": "v2",
+          "to_version": "v3",
+          "alignment_type": "1-1",
+          "severity": "unchanged",
+          "text_before": "धारा 5(1).",
+          "text_after": "धारा 5(1).",
+          "similarity": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "from_version": "v2",
+          "to_version": "v3",
+          "alignment_type": "1-1",
+          "severity": "unchanged",
+          "text_before": "शिकायत निवारण तंत्र:",
+          "text_after": "शिकायत निवारण तंत्र:",
+          "similarity": 1.0,
+          "confidence": 1.0
+        }
+      ],
+      "final_status": "active"
+    },
+    {
+      "clause_id": "5(क)",
+      "history": [
+        {
+          "from_version": "v1",
+          "to_version": "v2",
+          "alignment_type": "1-1",
+          "severity": "critical",
+          "text_before": "(क) प्रत्येक बैंक को एक नोडल अधिकारी नियुक्त करना अनिवार्य होगा।",
+          "text_after": "(क) प्रत्येक बैंक को एक नोडल अधिकारी नियुक्त करना चाहिए।",
+          "similarity": -0.0018279608339071274,
+          "confidence": 0.75
+        },
+        {
+          "from_version": "v2",
+          "to_version": "v3",
+          "alignment_type": "1-1",
+          "severity": "critical",
+          "text_before": "(क) प्रत्येक बैंक को एक नोडल अधिकारी नियुक्त करना चाहिए।",
+          "text_after": "(क) प्रत्येक बैंक को एक नोडल अधिकारी नियुक्त करना अनिवार्य होगा।",
+          "similarity": -0.0018279608339071274,
+          "confidence": 0.75
+        }
+      ],
+      "final_status": "active"
+    },
+    {
+      "clause_id": "6(1)",
+      "history": [
+        {
+          "from_version": "v1",
+          "to_version": "v2",
+          "alignment_type": "1-1",
+          "severity": "unchanged",
+          "text_before": "பிரிவு 6(1).",
+          "text_after": "பிரிவு 6(1).",
+          "similarity": 1.000000238418579,
+          "confidence": 1.000000238418579
+        },
+        {
+          "from_version": "v1",
+          "to_version": "v2",
+          "alignment_type": "1-1",
+          "severity": "unchanged",
+          "text_before": "தகவல் பாதுகாப்பு:",
+          "text_after": "தகவல் பாதுகாப்பு:",
+          "similarity": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "from_version": "v2",
+          "to_version": "v3",
+          "alignment_type": "1-1",
+          "severity": "unchanged",
+          "text_before": "பிரிவு 6(1).",
+          "text_after": "பிரிவு 6(1).",
+          "similarity": 1.000000238418579,
+          "confidence": 1.000000238418579
+        },
+        {
+          "from_version": "v2",
+          "to_version": "v3",
+          "alignment_type": "1-1",
+          "severity": "unchanged",
+          "text_before": "தகவல் பாதுகாப்பு:",
+          "text_after": "தகவல் பாதுகாப்பு:",
+          "similarity": 1.0,
+          "confidence": 1.0
+        }
+      ],
+      "final_status": "active"
+    },
+    {
+      "clause_id": "6(அ)",
+      "history": [
+        {
+          "from_version": "v1",
+          "to_version": "v2",
+          "alignment_type": "1-1",
+          "severity": "unchanged",
+          "text_before": "(அ) அனைத்து வாடிக்கையாளர் தரவுகளும் இந்தியாவில் மட்டுமே சேமிக்கப்பட வேண்டும்.",
+          "text_after": "(அ) அனைத்து வாடிக்கையாளர் தரவுகளும் இந்தியாவில் மட்டுமே சேமிக்கப்பட வேண்டும்.",
+          "similarity": 0.9999999403953552,
+          "confidence": 0.9999999403953552
+        },
+        {
+          "from_version": "v2",
+          "to_version": "v3",
+          "alignment_type": "1-1",
+          "severity": "critical",
+          "text_before": "(அ) அனைத்து வாடிக்கையாளர் தரவுகளும் இந்தியாவில் மட்டுமே சேமிக்கப்பட வேண்டும்.",
+          "text_after": "(அ) அனைத்து வாடிக்கையாளர் தரவுகளும் உள்ளூர் சர்வர்களில் மட்டுமே சேமிக்கப்பட வேண்டும்.",
+          "similarity": 0.004282571375370026,
+          "confidence": 0.75
+        }
+      ],
+      "final_status": "active"
+    },
+    {
+      "clause_id": "4(c)",
+      "history": [
+        {
+          "from_version": "v1",
+          "to_version": "v2",
+          "alignment_type": "insert",
+          "severity": "critical",
+          "text_before": "[INSERTED]",
+          "text_after": "(c) Non-deposit NBFCs shall appoint an independent risk officer w.e.f. 1st October 2026.",
+          "similarity": 0.0,
+          "confidence": 1.0
+        },
+        {
+          "from_version": "v2",
+          "to_version": "v3",
+          "alignment_type": "1-1",
+          "severity": "unchanged",
+          "text_before": "(c) Non-deposit NBFCs shall appoint an independent risk officer w.e.f. 1st October 2026.",
+          "text_after": "(c) Non-deposit NBFCs shall appoint an independent risk officer w.e.f. 1st October 2026.",
+          "similarity": 1.0,
+          "confidence": 1.0
+        }
+      ],
+      "final_status": "active"
+    }
+  ]
+}

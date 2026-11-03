@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cross-Lingual Semantic Diff - Phase 1 Demo</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background: #0f172a;
+            color: #f8fafc;
+            margin: 0;
+            padding: 40px;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: #1e293b;
+            border-radius: 12px;
+            padding: 32px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+        }
+        h1 { color: #38bdf8; margin-top: 0; }
+        p.subtitle { color: #94a3b8; font-size: 1.1rem; }
+        .metric-cards {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 16px;
+            margin: 24px 0;
+        }
+        .card {
+            background: #0f172a;
+            border: 1px solid #334155;
+            border-radius: 8px;
+            padding: 16px;
+            text-align: center;
+        }
+        .card-number { font-size: 1.8rem; font-weight: bold; color: #38bdf8; }
+        .card-label { font-size: 0.85rem; color: #94a3b8; margin-top: 4px; }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 12px 16px;
+            text-align: left;
+            border-bottom: 1px solid #334155;
+        }
+        th {
+            background: #0f172a;
+            color: #94a3b8;
+            font-size: 0.85rem;
+            text-transform: uppercase;
+        }
+        .lang-badge {
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            font-weight: bold;
+            color: white;
+        }
+        .clause-badge {
+            background: #334155;
+            color: #f1f5f9;
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-family: monospace;
+            font-size: 0.85rem;
+        }
+        .no-clause { color: #64748b; font-style: italic; }
+        .sentence-text { line-height: 1.5; }
+        .footer {
+            margin-top: 32px;
+            color: #64748b;
+            font-size: 0.85rem;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Cross-Lingual Semantic Diff for Regulatory Documents</h1>
+        <p class="subtitle"><strong>Phase 1 Demonstration:</strong> Multilingual Ingestion, Legal Hierarchy, and Indic Sentence Segmentation</p>
+        
+        <div class="metric-cards">
+            <div class="card">
+                <div class="card-number">13</div>
+                <div class="card-label">Sentences Parsed</div>
+            </div>
+            <div class="card">
+                <div class="card-number">3</div>
+                <div class="card-label">Languages (EN, HI, TA)</div>
+            </div>
+            <div class="card">
+                <div class="card-number">100%</div>
+                <div class="card-label">Abbreviation Accuracy</div>
+            </div>
+            <div class="card">
+                <div class="card-number">10/10</div>
+                <div class="card-label">Unit Tests Passed</div>
+            </div>
+        </div>
+
+        <h3>Segmented Regulatory Excerpt</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th style="width: 60px;">Index</th>
+                    <th style="width: 80px;">Language</th>
+                    <th style="width: 160px;">Clause Ref</th>
+                    <th>Sentence Content</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+        <tr>
+            <td><strong>#1</strong></td>
+            <td><span class='lang-badge' style='background-color:#2563eb'>EN</span></td>
+            <td><span class='no-clause'>Preamble</span></td>
+            <td class='sentence-text'>Reserve Bank of India Master Direction - Digital Payment Security Controls 2026.</td>
+        </tr>
+        
+        <tr>
+            <td><strong>#2</strong></td>
+            <td><span class='lang-badge' style='background-color:#2563eb'>EN</span></td>
+            <td><span class='clause-badge'>4(1)</span></td>
+            <td class='sentence-text'>Section 4(1).</td>
+        </tr>
+        
+        <tr>
+            <td><strong>#3</strong></td>
+            <td><span class='lang-badge' style='background-color:#2563eb'>EN</span></td>
+            <td><span class='clause-badge'>4(1)</span></td>
+            <td class='sentence-text'>Governance and Customer Verification:</td>
+        </tr>
+        
+        <tr>
+            <td><strong>#4</strong></td>
+            <td><span class='lang-badge' style='background-color:#2563eb'>EN</span></td>
+            <td><span class='clause-badge'>4(a)</span></td>
+            <td class='sentence-text'>(a) Every regulated entity shall verify customer identity in accordance with KYC guidelines w.e.f. 1st July 2026.</td>
+        </tr>
+        
+        <tr>
+            <td><strong>#5</strong></td>
+            <td><span class='lang-badge' style='background-color:#2563eb'>EN</span></td>
+            <td><span class='clause-badge'>4(a)</span></td>
+            <td class='sentence-text'>The minimum penalty for non-compliance under Sec. 46 shall be Rs. 50.50 crores or 2.75% of net profit.</td>
+        </tr>
+        
+        <tr>
+            <td><strong>#6</strong></td>
+            <td><span class='lang-badge' style='background-color:#2563eb'>EN</span></td>
+            <td><span class='clause-badge'>4(b)</span></td>
+            <td class='sentence-text'>(b) Entities must conduct annual cybersecurity audits through CERT-In empanelled auditors.</td>
+        </tr>
+        
+        <tr>
+            <td><strong>#7</strong></td>
+            <td><span class='lang-badge' style='background-color:#ea580c'>HI</span></td>
+            <td><span class='clause-badge'>5(1)</span></td>
+            <td class='sentence-text'>धारा 5(1).</td>
+        </tr>
+        
+        <tr>
+            <td><strong>#8</strong></td>
+            <td><span class='lang-badge' style='background-color:#ea580c'>HI</span></td>
+            <td><span class='clause-badge'>5(1)</span></td>
+            <td class='sentence-text'>शिकायत निवारण तंत्र:</td>
+        </tr>
+        
+        <tr>
+            <td><strong>#9</strong></td>
+            <td><span class='lang-badge' style='background-color:#ea580c'>HI</span></td>
+            <td><span class='clause-badge'>5(क)</span></td>
+            <td class='sentence-text'>(क) प्रत्येक बैंक को एक नोडल अधिकारी नियुक्त करना अनिवार्य होगा।</td>
+        </tr>
+        
+        <tr>
+            <td><strong>#10</strong></td>
+            <td><span class='lang-badge' style='background-color:#ea580c'>HI</span></td>
+            <td><span class='clause-badge'>5(क)</span></td>
+            <td class='sentence-text'>यह आदेश सभी अनुसूचित वाणिज्यिक बैंकों पर लागू होगा w.e.f. तत्काल प्रभाव॥</td>
+        </tr>
+        
+        <tr>
+            <td><strong>#11</strong></td>
+            <td><span class='lang-badge' style='background-color:#059669'>TA</span></td>
+            <td><span class='clause-badge'>6</span></td>
+            <td class='sentence-text'>பிரிவு 6.</td>
+        </tr>
+        
+        <tr>
+            <td><strong>#12</strong></td>
+            <td><span class='lang-badge' style='background-color:#059669'>TA</span></td>
+            <td><span class='clause-badge'>6</span></td>
+            <td class='sentence-text'>தகவல் பாதுகாப்பு மற்றும் தனியுரிமை:
+அனைத்து வாடிக்கையாளர் தரவுகளும் இந்தியாவில் மட்டுமே சேமிக்கப்பட வேண்டும்.</td>
+        </tr>
+        
+        <tr>
+            <td><strong>#13</strong></td>
+            <td><span class='lang-badge' style='background-color:#059669'>TA</span></td>
+            <td><span class='clause-badge'>6</span></td>
+            <td class='sentence-text'>விதிமீறல்கள் ஏற்பட்டால் பிரிவு 4(1) இன் கீழ் கடுமையான நடவடிக்கை எடுக்கப்படும்.</td>
+        </tr>
+        
+            </tbody>
+        </table>
+
+        <div class="footer">
+            Generated by <code>semdiff</code> | Phase 1 Progress Deliverable for Faculty Review
+        </div>
+    </div>
+</body>
+</html>
